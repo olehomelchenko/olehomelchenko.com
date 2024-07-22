@@ -1,0 +1,25 @@
+baseURL: https://olehomelchenko.com/
+languageCode: uk-ua
+title: Олег Омельченко
+theme: PaperMod
+
+params:
+
+  disableThemeToggle: true
+  env: production
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 5
+    - identifier: tils
+      name: TILs
+      url: /til/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
