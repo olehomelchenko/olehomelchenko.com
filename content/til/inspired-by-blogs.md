@@ -7,3 +7,6 @@ draft: false
 * https://vanderplas.com/ - Блог Джейка Вандерпласа, вкладника до Vega-Lite та багатьох Python-бібліотек
 * https://koaning.io/ - Блог Vincent D. Warmerdam, автора проєкту https://calmcode.io
 * https://clauswilke.com/ - Блог Клауса Вілке, відомого мені за онлайн-книгою [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+* https://hadley.nz/ - Hadley Wickham
+* https://www.data-imaginist.com/ 
+* https://djnavarro.net/ - Danielle Navarro
