@@ -2,9 +2,8 @@
 title = 'Main Page'
 date = 2024-05-21T20:20:24+03:00
 draft = false
+load_vega = true
 +++
-
-## Олег Омельченко
 
 Привіт! Я Олег, ви можете знати мене як аналітика в MacPaw та/або викладача в Київській школі економіки. 
 
@@ -12,5 +11,3 @@ draft = false
 
 
 ![](https://static.olehomelchenko.com/oleh-omelchenko.jpeg)
-
-### 
