@@ -1,9 +1,16 @@
 <!-- Create a unique ID for the div where the Vega-Lite visualization will be rendered -->
-<div class="vegaVis" id="{{ .Get "id" | default "vega-lite-vis" }}"></div>
+<div class="vega-container">
+  <div class="vegaVis" id="{{ .Get "id" | default "vega-lite-vis" }}"></div>
+</div>
+
 <script>
-  const spec = {{ .Inner | safeJS }};
-  spec['width'] =  {{ .Get "width" | default 700}};
-  spec['height'] = {{ .Get "height" | default 300}};
-  vegaEmbed('#{{ .Get "id" | default "vega-lite-vis" }}', spec, {"actions": false}).catch(console.error);
+  (function() {
+
+    let spec = {{ .Inner | safeJS }};
+    let actions = {{ .Get "actions" | default false}};
+    spec['width'] =  spec['width']? spec['width'] : {{ .Get "width" | default 700}};
+    spec['height'] = spec['height']? spec['height'] : {{ .Get "height" | default 300}};
+    vegaEmbed('#{{ .Get "id" | default "vega-lite-vis" }}', spec, {"actions": actions}).catch(console.error);
+  })();
 
 </script>

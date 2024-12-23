@@ -8,7 +8,7 @@ taxonomies:
   language: languages
 
 params:
-  disableThemeToggle: true
+  disableThemeToggle: false
   env: production
   author: Олег Омельченко
 
